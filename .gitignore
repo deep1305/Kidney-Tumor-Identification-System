@@ -37,6 +37,7 @@ inputImage.jpg
 # Jupyter
 .ipynb_checkpoints/
 *.ipynb_checkpoints
+research/
 
 # IDE
 .idea/
