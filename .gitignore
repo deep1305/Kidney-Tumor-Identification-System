@@ -1,0 +1,52 @@
+# Python
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+.eggs/
+
+# Virtual environments
+.venv
+venv/
+env/
+
+# ML artifacts (large files — tracked by DVC, not git)
+artifacts/
+*.h5
+*.pkl
+*.pt
+*.pth
+scores.json
+
+# MLflow
+mlruns/
+mlartifacts/
+
+# DVC cache
+.dvc/cache
+.dvc/tmp
+
+# Data
+*.zip
+*.csv
+*.json
+inputImage.jpg
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# IDE
+.idea/
+.vscode/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+logs/
+*.log

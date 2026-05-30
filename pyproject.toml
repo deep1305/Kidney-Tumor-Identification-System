@@ -1,0 +1,10 @@
+[project]
+name = "kidney-tumor-identification-system"
+version = "0.1.0"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "ipykernel>=7.2.0",
+    "jupyter>=1.1.1",
+    "notebook>=7.5.6",
+]
